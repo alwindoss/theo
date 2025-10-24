@@ -11,7 +11,7 @@ import (
 
 func main() {
 	addr := net.JoinHostPort("", "6060")
-	reactApp, err := fs.Sub(ui.UIFS, "dist")
+	reactApp, err := fs.Sub(ui.FS, "dist")
 	if err != nil {
 		panic(err)
 	}
