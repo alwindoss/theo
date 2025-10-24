@@ -1,14 +1,12 @@
 import { Link, Outlet } from "react-router";
+import Navbar from "../components/Navbar";
 
 export default function DefaultLayout() {
     return (
         <>
             <div>
                 <header>
-                    <nav>
-                        <Link to="/">Home</Link >
-                        <Link to="/about">About</Link >
-                    </nav>
+                    <Navbar />
                 </header>
                 <main>
                     <Outlet />

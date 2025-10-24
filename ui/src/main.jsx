@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, Route } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import './index.css'
-import App from './App.jsx'
 import HomePage from './pages/HomePage.jsx';
 import AboutPage from './pages/AboutPage.jsx';
 import DefaultLayout from './layouts/DefaultLayout.jsx';
